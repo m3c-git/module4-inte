@@ -33,7 +33,7 @@ img{
     width: 277.59px;
 }
 
-img:hover{
+.animation:hover img{
     animation-name: scale-anim;
     animation-duration: 1s;
     animation-fill-mode: forwards;
