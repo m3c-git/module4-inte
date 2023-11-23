@@ -1,0 +1,46 @@
+/* marge section*/
+
+section{
+    border: 1px solid #DD5735;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    background: #f9c;
+}
+
+
+.static{
+    position: static;
+    top: 0;
+    background: #9c6;
+}
+
+.relative-1{
+    position: relative;
+    left: 5em;
+    background: #fc3;
+}
+
+.relative-2{
+    position: relative;
+
+}
+
+.absolute{
+    width: 20%;
+    height: 3em;
+    position: absolute;
+    top: -1em;
+    right: 0;
+    background: #f93;
+}
+
+.fixed{
+    position: fixed;
+    background: #69c;
+    width: 15%;
+    top: 0;
+    right: -3em;
+}
