@@ -18,9 +18,9 @@
 .barre{
     background: #fff;
     width: 2em;
-    height: 7em;
+    height: 5.5em;
     margin: 0.5em;
-    animation: scale-anim, infinite;
+    animation: 3s infinite scale-anim;
 }
 
 
