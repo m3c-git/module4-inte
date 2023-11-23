@@ -1,1 +1,61 @@
 /* Le code CSS de la démo */
+
+.animation{
+    padding: 0;
+    margin: 0;
+    border: 3px solid #DD5735;
+    position: relative;
+    height: 277.59px;
+    border-radius: 50%;
+    z-index: 0;
+
+}
+
+
+article{
+    margin-top: 2.5em;
+    height: 40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    border-radius: 50%;
+    padding: 0.8em;
+    margin: 0;
+    z-index: 1;
+}
+
+img:hover{
+    animation-name: scale-anim;
+    animation-duration: 1s;
+}
+
+p{
+    text-align: center;
+    color: #DD5735;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2em;
+    left: 40%;
+    z-index: -1;
+}
+
+main{
+    margin: auto 0;
+}
+
+@keyframes scale-anim{
+    from {
+        transform: scale(1);
+    }
+
+        to {
+        transform: scale(0.5);
+
+    }
+}
