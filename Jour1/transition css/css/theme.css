@@ -1,0 +1,32 @@
+/* container  */
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* menu*/
+
+menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DD5735;
+    color: #fff;
+}
+
+menu li{
+    text-align: center;
+    list-style: none;
+    padding: 1.5em 3em;
+    transition: color 0.2s,  background-color 1s,  transform 0.5s;
+}
+
+menu li:hover{
+    color: #333;
+    background: #fc3;
+    transform: scale(1.5);
+
+}
