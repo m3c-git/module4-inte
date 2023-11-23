@@ -1,0 +1,38 @@
+/* container  */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    width: 13em;
+    height: 13em;
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barre{
+    background: #fff;
+    width: 2em;
+    height: 7em;
+    margin: 0.5em;
+    animation: scale-anim, infinite;
+}
+
+
+
+@keyframes scale-anim{
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+
+    }
+}
+
