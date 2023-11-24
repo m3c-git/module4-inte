@@ -1,2 +1,11 @@
 /* article */
 
+.bx-wrapper{
+    text-align: center;
+}
+
+.bx-wrapper .bx-caption span{
+    color: #fff !important;
+    background: hsl(0,0%,80%);
+
+}
