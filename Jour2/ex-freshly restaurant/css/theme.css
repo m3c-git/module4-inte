@@ -4,22 +4,85 @@
     background: #ebe3db;
     display: flex;
     flex-direction: column;
-    width: 100vw;
+
 
 }
 
 .logo img{
-    width: 35rem;
-    height: 35rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
 }
-body{width: 100%;}
 
+menu{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding: 0;
+}
+menu li{
+    list-style: none;
+    border-top: 1px solid #000;
+}
+
+nav menu li:nth-child(4){
+    border-bottom: 1px solid #000;
+}
+
+menu li{
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+h1, h2, h3, h4, h5{
+    text-align: center;
+}
+
+i{
+    padding: 1rem;
+}
+
+
+.flex-article1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu section{
+background: #ebe3db;
+padding: 1rem 0;
+}
+
+.menu li{
+    list-style: none;
+    border-bottom: 1px dashed #000;
+
+}
 /***************************************************************
 Media queries
 ****************************************************************/
 
 @media screen and (min-width: 780px){
     
+}
+
+@media screen and (min-width: 1200px){
+    body{
+
+        width: 100vw;
+    }    
+
 }
 
 @media screen and (min-width: 1200px){

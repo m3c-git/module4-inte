@@ -41,25 +41,26 @@ body {
 h1 {
 	font-family: 'Merienda', cursive;
 	font-size: 3rem;
+	text-transform: uppercase;
 }
 
 /* Le titre de second niveau  */
 h2 {
 	font-family: 'Merienda', cursive;
-	font-size: 2.5rem;
+	font-size: 3rem;
 }
 
 
 /* Le titre de troisème niveau */
 h3 {
 	font-family: 'Merienda', cursive;
-	font-size: 2rem;
+	font-size: 2.5rem;
 }
 
 /* Le titre de quatrième niveau */
 h4 {
 	font-family: 'Merienda', cursive;
-	font-size: 2.4rem;
+	font-size: 2rem;
 }
 
 /* Le titre de cinquième niveau */
@@ -86,13 +87,12 @@ a:hover {
 
 /* Contenu principal */
 main {
-	padding: 2em;
+	padding: 1em;
 }
 
 /* Les articles */
 article {
 	background-color: #fff;
-	padding: 1em;
 }
 
 /* marge entre les sections */
@@ -117,9 +117,9 @@ MAIN LAYOUT
 
 /* L'entête de la page */
 .header {
-	padding: 1em;
+	padding: ;
 	text-align: center;
-	color:#4c4343;
+	color:#000;
 	background-color: #444;
 }
 
@@ -129,28 +129,27 @@ MAIN LAYOUT
 }
 
 /* Le pied de page */
+
+.footer-2{
+	background-image: url(../ressources/images/footer-bg.jpg);
+	color: #fff;
+	text-align: center;
+	margin-top: 0;
+
+}
+
 .footer {
 	padding: 1.6em;
 	text-align: center;
 	color: #fff;
 	background-color: #444;
+	margin: 0;
 }
 
-/* *****************************************************************
-CARDS
-***************************************************************** */
-
-.card,
-.cards > * {
-	padding: 2em;
-	background-color: #fff;
-	border: 1px solid rgba(0,0,0,0.2);
+.footer img{
+	width: 50px;
+	height: auto;
 }
-
-.gutter > * {
-	margin: 1em;
-}
-
 /* *****************************************************************
 FORM
 ***************************************************************** */
