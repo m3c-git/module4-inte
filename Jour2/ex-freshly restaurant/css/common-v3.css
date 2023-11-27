@@ -122,7 +122,6 @@ MAIN LAYOUT
 
 /* L'entête de la page */
 .header {
-	padding: ;
 	text-align: center;
 	color:#000;
 	background-color: #444;
@@ -245,6 +244,7 @@ textarea {
 	color: #fff;
 	background-color: #4c4343;
 	cursor: pointer;
+	box-shadow: 2px 2px 2px silver;
 }
 
 .button:hover {
