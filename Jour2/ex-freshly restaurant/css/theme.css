@@ -69,6 +69,16 @@ padding: 1rem 0;
     border-bottom: 1px dashed #000;
 
 }
+
+.footer-2 h5{
+    border-bottom: 1px dashed #fff;
+    padding-bottom: 1rem;
+}
+
+.reseau p{
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
 /***************************************************************
 Media queries
 ****************************************************************/
