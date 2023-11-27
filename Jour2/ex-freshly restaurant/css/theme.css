@@ -70,6 +70,18 @@ img{
     height: auto;
 }
 
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button img{
+    width: 3rem;
+    height: auto;
+    margin-right: 1rem;
+}
 
 h1, h2, h3, h4, h5{
     text-align: center;
