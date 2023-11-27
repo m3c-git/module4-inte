@@ -73,6 +73,11 @@ h5 {
 .texte-menu li{
 	font-size: 1.5rem;
 }
+
+.texte-menu{
+	padding-left: 1rem;
+}
+
 /* Les liens */
 a {
 	text-decoration: none;
@@ -232,12 +237,13 @@ textarea {
 /* Style de chaque bouton */
 .button {
 	display: inline-block;
+	width: 95%;
+	border: none;
+	margin: 1rem auto;
 	padding: 1em 2em;
 	font-size: 1.6rem;
 	color: #fff;
-	background-color: #DD5735;
-	border: 2px solid #DD5735;
-	border-radius: 0.5em;
+	background-color: #4c4343;
 	cursor: pointer;
 }
 

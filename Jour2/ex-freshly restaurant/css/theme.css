@@ -59,9 +59,11 @@ i{
 
 }
 
-.menu section{
+section{
 background: #ebe3db;
 padding: 1rem 0;
+display: flex;
+flex-direction: column;
 }
 
 .menu li{
