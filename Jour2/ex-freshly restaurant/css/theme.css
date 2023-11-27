@@ -1,1 +1,28 @@
 /* Le code CSS de la démo */
+
+.header{
+    background: #ebe3db;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+
+}
+
+.logo img{
+    width: 35rem;
+    height: 35rem;
+}
+body{width: 100%;}
+
+/***************************************************************
+Media queries
+****************************************************************/
+
+@media screen and (min-width: 780px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+
+}

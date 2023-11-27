@@ -20,7 +20,7 @@ html {
 }
 
 body {
-	font-size: 1.6rem; /* on remets la taille du texte par défaut pour le body à 16px en utilisant les rem comme unité) */
+	font-size: 1.8rem; /* on remets la taille du texte par défaut pour le body à 18px en utilisant les rem comme unité) */
 }
 
 /* *****************************************************************
@@ -29,32 +29,49 @@ GENERALITIES
 
 /* Le corps du document */
 body {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	line-height: 1.5;
-	font-family: sans-serif;
-	color: #555;
-	background-color: #eee;
+	font-family: 'Athiti', sans-serif;	
+	color: #000;
+	background-color: #fff;
 }
 
 /* Le titre principal d'un flux */
 h1 {
-	font-size: 4rem;
-	color: #DD5735;
+	font-family: 'Merienda', cursive;
+	font-size: 3rem;
 }
 
 /* Le titre de second niveau  */
 h2 {
-	font-size: 3.2rem;
-	color: #333;
+	font-family: 'Merienda', cursive;
+	font-size: 2.5rem;
 }
 
 
 /* Le titre de troisème niveau */
 h3 {
+	font-family: 'Merienda', cursive;
+	font-size: 2rem;
+}
+
+/* Le titre de quatrième niveau */
+h4 {
+	font-family: 'Merienda', cursive;
 	font-size: 2.4rem;
 }
 
+/* Le titre de cinquième niveau */
+h5 {
+	font-family: 'Merienda', cursive;
+	font-size: 1.8rem;
+}
+
+/* texte-menu */
+.texte-menu li{
+	font-size: 1.5rem;
+}
 /* Les liens */
 a {
 	text-decoration: none;
@@ -89,7 +106,7 @@ CONTAINER
 
 /* Le container permet de limiter la largeur d'un contenu */
 .container {
-	max-width: 1100px; /* On donne une largeur au container */
+	max-width: 1400px; /* On donne une largeur au container */
 	margin-left: auto; /* On centre son contenu */
 	margin-right: auto;
 }
@@ -102,7 +119,7 @@ MAIN LAYOUT
 .header {
 	padding: 1em;
 	text-align: center;
-	color: #999;
+	color:#4c4343;
 	background-color: #444;
 }
 
@@ -113,7 +130,7 @@ MAIN LAYOUT
 
 /* Le pied de page */
 .footer {
-	padding: 2em;
+	padding: 1.6em;
 	text-align: center;
 	color: #fff;
 	background-color: #444;
@@ -230,29 +247,6 @@ textarea {
 	background-color: #fff;
 }
 
-/* *****************************************************************
-TABLE
-***************************************************************** */
-
-.table {
-	width: 100%;
-	border-collapse: collapse;
-}
-.table caption,
-.table th,
-.table td {
-	padding: 1em;
-	border: 1px solid #ddd;
-}
-.table thead {
-	border-bottom: 2px solid #999;
-}
-.table tfoot {
-	border-top: 2px solid #999;
-}
-.table tbody tr:nth-child(odd) {
-    background-color: rgba(0,0,0,0.1);
-}
 
 /* *****************************************************************
 VARIOUS
@@ -263,12 +257,3 @@ VARIOUS
 	border: 1px dashed #DD5735;
 }
 
-/* Utile pour mettre en forme du code informatique */
-.code {
-	padding: 0.5em;
-	font-family: Monaco, monospace;
-	font-size: 14px;
-	color: #000;
-	background-color: #ddd;
-	border: 1px solid #bbb;
-}
